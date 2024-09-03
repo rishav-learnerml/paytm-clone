@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start":"npx tsc -b && nodemon dist/index.js"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.8",
+    "pg": "^8.12.0",
+    "typescript": "^5.5.4"
+  }
+}
